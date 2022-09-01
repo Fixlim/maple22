@@ -1,0 +1,62 @@
+body, 
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/*.container{
+ height: 100%;
+
+} this can use also rather than use html bootstrap h-100
+*/
+body{
+ background: url(header.jpg) no-repeat center center fixed; /*important line*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 2rem;
+  color: white;
+text-transform: uppercase;
+}
+.buffer{
+  height: 3rem ;
+}
+
+.btn-xl{
+padding: 1rem 2rem;
+font-size: 15px;
+
+}
+
+.btn{
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 50px;
+  
+}
+
+.btn-info{
+background-color: purple;
+border-color: purple;
+
+}
+
+.btn-info:hover{
+  background-color: lightyellow;
+  border-color: lightyellow;
+  border-width: 2px;
+}
+
+hr {
+    margin: 15px auto;
+    color: #F05F44;
+    border: 1px solid #F05F44;
+    opacity: 1;  
+    max-width: 65px
+}
